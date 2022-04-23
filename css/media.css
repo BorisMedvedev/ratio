@@ -1,0 +1,151 @@
+@media (max-width: 1200px) {
+  .features__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .slider {
+    width: 1080px;
+  }
+
+  .footer {
+    padding: 50px 0 50px;
+  }
+}
+
+@media (max-width: 968px) {
+  .header {
+    padding: 25px 0 0;
+  }
+  .header__inner {
+    justify-content: space-between;
+  }
+  .header-nav {
+    display: none;
+  }
+  .hamburger {
+    display: inline-block;
+  }
+  .main-section {
+    padding: 80px 0 0;
+    background-size: auto 50%;
+  }
+  .info-banner {
+    padding: 80px 0 80px;
+  }
+
+  .info-banner__inner {
+    padding: 12px;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  .info-banner__img {
+    margin-right: 0;
+  }
+
+  .slider__item {
+    padding: 30px;
+    margin-right: 20px;
+    height: 200px;
+  }
+  .slider__item-content {
+    max-width: 290px;
+  }
+  .slider__item-descr p {
+    font-size: 16px;
+  }
+
+  .testimonials__inner {
+    padding: 80px 0 80px 20px;
+    margin-bottom: 80px;
+  }
+  .slider-btnprev {
+    right: 60%;
+  }
+  .slider-btnnext {
+    right: 55%;
+  }
+  .slider {
+    max-width: 970px;
+  }
+  .slick-dots {
+    text-align: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .main-section__title {
+    max-width: 350px;
+    font-size: 46px;
+  }
+  .main-section {
+    background-position: right 3% bottom 39%;
+    background-size: auto 0%;
+  }
+  .title {
+    font-size: 36px;
+  }
+
+  .features__text {
+    margin-bottom: 50px;
+  }
+
+  .features__item {
+    margin-bottom: 30px;
+    padding: 20px 10px 20px 10px;
+    max-width: 530px;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: right top;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: box-shadow 0.5s, transform 0.2s;
+  }
+
+  .features__item-img {
+    width: 150px;
+    height: 130px;
+  }
+  .features__item-title {
+    font-size: 20px;
+  }
+  .slider__item.slick-slide.slick-current.slick-active {
+    max-width: 320px;
+  }
+  .slider-btn {
+    display: none;
+  }
+  .slider__item.slick-slide.slick-current.slick-active {
+    max-width: 270px;
+  }
+}
+@media (max-width: 440px) {
+  .main-section {
+    text-align: center;
+  }
+  .btn-more {
+    width: 100%;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+  .features__item-img {
+    width: 110px;
+    height: 100px;
+  }
+
+  .info-banner__img {
+    height: 300px;
+    margin-right: 0;
+  }
+  .features__item-content-text p {
+    font-size: 14px;
+  }
+  .features__item-img {
+    margin-right: 0;
+  }
+}
