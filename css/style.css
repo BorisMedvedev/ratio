@@ -125,7 +125,13 @@ img {
 }
 
 .header {
-  padding: 68px 0 0;
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  right: 0;
+  left: 0;
+  padding: 30px 0;
+  z-index: 99999;
 }
 
 .header__inner {
@@ -555,7 +561,7 @@ img {
 }
 
 .footer__botton-text {
-  max-width: 380px;
+  max-width: 300px;
 }
 
 .footer__social {
@@ -591,10 +597,16 @@ img {
   opacity: 0.6;
 }
 
+.footer__botton-text {
+  font-size: 12px;
+  letter-spacing: 0.01em;
+}
+
 .hamburger {
   width: 40px;
   height: 28px;
   position: relative;
+
   cursor: pointer;
   z-index: 100;
   display: none;
@@ -644,7 +656,7 @@ img {
   transform: rotate(-135deg);
 }
 
-.menu-overlay {
+/* .menu-overlay {
   position: fixed;
   left: 0;
   top: 0;
@@ -653,7 +665,7 @@ img {
   background: #5482ab;
   opacity: 0;
   visibility: visible;
-  /* z-index: 1; */
+  z-index: 1; 
   text-align: center;
   display: table;
   -webkit-transition: visibility 0.5s ease, opacity 1s ease;
@@ -730,4 +742,4 @@ img {
 }
 .nav a:hover {
   opacity: 0.6;
-}
+} */

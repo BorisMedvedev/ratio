@@ -15,14 +15,51 @@
 
 @media (max-width: 968px) {
   .header {
-    padding: 25px 0 0;
+    padding: 10px 0 10px;
   }
   .header__inner {
     justify-content: space-between;
   }
   .header-nav {
-    display: none;
+    display: block;
   }
+
+  .header-nav {
+    position: fixed;
+    padding-top: 80px;
+    width: 70%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    right: 0;
+    bottom: 0;
+    background-color: #f063b8;
+    z-index: 10;
+    transform: translateX(150%);
+    transition: transform 0.5s;
+  }
+
+  .header-nav--open {
+    transform: translateX(0);
+  }
+
+  .header-nav__list {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header-nav__item:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .header-nav__link {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 25px;
+  }
+
   .hamburger {
     display: inline-block;
   }

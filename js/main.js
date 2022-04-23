@@ -26,8 +26,30 @@ $(document).ready(function () {
 
   $('.hamburger').click(function () {
     $(this).toggleClass('open');
-    $('.menu-overlay').toggleClass('open');
+    $('.header-nav').toggleClass('header-nav--open');
+  });
+  $('.header-nav__link').click(function () {
+    $('.hamburger').removeClass('open');
+    $('.header-nav').removeClass('header-nav--open');
+
   });
 
 
 });
+
+const anchors = document.querySelectorAll('.header-nav__item a')
+
+for (let anchor of anchors) {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+
+
+    const blockID = anchor.getAttribute('href');
+
+
+    document.querySelector(blockID).scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    })
+  })
+}
