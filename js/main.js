@@ -35,7 +35,7 @@ $(document).ready(function () {
   });
 });
 
-const anchors = document.querySelectorAll("a");
+const anchors = document.querySelectorAll(".btn-more, .header-nav__link");
 
 for (let anchor of anchors) {
   anchor.addEventListener("click", function (e) {
@@ -50,17 +50,3 @@ for (let anchor of anchors) {
   });
 }
 
-// const anchor2 = document.querySelectorAll('.btn-more a')
-
-// for (let anch of anchor2) {
-//   anch.addEventListener('click', function (e) {
-//     e.preventDefault();
-
-//     const blockID = anch.getAttribute('href');
-
-//     document.querySelector(blockID).scrollIntoView({
-//       behavior: 'smooth',
-//       block: 'start'
-//     });
-//   });
-// }
