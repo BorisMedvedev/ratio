@@ -17,9 +17,11 @@
   .header {
     padding: 10px 0 10px;
   }
+
   .header__inner {
     justify-content: space-between;
   }
+
   .header-nav {
     display: block;
   }
@@ -63,10 +65,12 @@
   .hamburger {
     display: inline-block;
   }
+
   .main-section {
     padding: 80px 0 0;
     background-size: auto 50%;
   }
+
   .info-banner {
     padding: 80px 0 80px;
   }
@@ -77,6 +81,7 @@
     text-align: center;
     justify-content: center;
   }
+
   .info-banner__img {
     margin-right: 0;
   }
@@ -86,9 +91,11 @@
     margin-right: 20px;
     height: 200px;
   }
+
   .slider__item-content {
     max-width: 290px;
   }
+
   .slider__item-descr p {
     font-size: 16px;
   }
@@ -97,18 +104,23 @@
     padding: 80px 0 80px 20px;
     margin-bottom: 80px;
   }
+
   .slider-btnprev {
     right: 60%;
   }
+
   .slider-btnnext {
     right: 55%;
   }
+
   .slider {
     max-width: 920px;
   }
+
   .slick-dots {
     text-align: center;
   }
+
   .slider-btn {
     display: none !important;
   }
@@ -118,6 +130,7 @@
   .main-section__title {
     margin-right: 0;
   }
+
   .main-section {
     height: 80vh;
   }
@@ -133,17 +146,21 @@
   .main-section__descr {
     margin-bottom: 80px;
   }
+
   .slider {
     max-width: 620px;
   }
+
   .main-section__title {
     max-width: 350px;
     font-size: 46px;
   }
+
   .main-section {
     background-position: right 3% bottom 39%;
     background-size: auto 0%;
   }
+
   .title {
     font-size: 36px;
   }
@@ -169,25 +186,32 @@
     width: 150px;
     height: 130px;
   }
+
   .features__item-title {
     font-size: 20px;
   }
+
   .slider__item.slick-slide {
     max-width: 260px;
   }
+
   .slider-btn {
     display: none;
   }
+
   .slider__item.slick-slide.slick-current.slick-active {
     max-width: 260px;
   }
+
   .slider__item-img {
     width: 60px;
     height: 60px;
   }
+
   .slider__item-info {
     margin-bottom: 10px;
   }
+
   .testimonials__title {
     margin-bottom: 40px;
   }
@@ -196,24 +220,30 @@
     padding: 40px 0 50px 20px;
     margin-bottom: 80px;
   }
+
   .footer__social {
     margin-top: 25px;
   }
 }
+
 @media (max-width: 440px) {
   .btn-more {
     font-weight: 800;
     font-size: 22px;
   }
+
   .slider {
     max-width: 390px;
   }
+
   .slick-dots {
     bottom: -30px;
   }
+
   .main-section {
     text-align: center;
   }
+
   .btn-more {
     width: 100%;
     text-align: center;
@@ -222,6 +252,7 @@
   .title {
     font-size: 24px;
   }
+
   .features__item-img {
     width: 110px;
     height: 100px;
@@ -232,6 +263,7 @@
     height: 300px;
     margin-right: 0;
   }
+
   .features__item-content-text p {
     font-size: 14px;
   }
