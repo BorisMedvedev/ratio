@@ -6,7 +6,8 @@ $(document).ready(function () {
     infinite: true,
     loop: false,
     speed: 300,
-    slidesToShow: 2,
+    arrows: true,
+    slidesToShow: 1,
     // centerMode: true,
     variableWidth: true,
     responsive: [{
@@ -18,7 +19,7 @@ $(document).ready(function () {
         arrows: false
 
       }
-    },
+    }
 
     ]
   });
