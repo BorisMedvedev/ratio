@@ -115,12 +115,19 @@
 }
 
 @media (max-width: 640px) {
+  .main-section__title {
+    margin-right: 0;
+  }
   .main-section {
-    height: 100vh;
+    height: 80vh;
   }
 
   .main-section__title {
     padding-top: 80px;
+  }
+
+  .info-banner {
+    padding: 40px 0 40px;
   }
 
   .main-section__descr {
@@ -194,6 +201,10 @@
   }
 }
 @media (max-width: 440px) {
+  .btn-more {
+    font-weight: 800;
+    font-size: 22px;
+  }
   .slider {
     max-width: 390px;
   }
